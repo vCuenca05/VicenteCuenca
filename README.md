@@ -88,3 +88,13 @@ Es un estándar que facilita la forma de comunicación entre Cliente-Servidor a 
 
 11.	¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?
 Un header es la primera línea del request y contiene la información básica de la página, como el verbo HTTP, la URL y la versión.
+
+EJERCICIO 3
+![image](https://user-images.githubusercontent.com/97058833/147972568-bc2c48fe-46e8-41e0-8eea-489bfac6a568.png)
+            
+![image](https://user-images.githubusercontent.com/97058833/147972579-e2575ba3-3f0c-4bd0-907c-47b50e59308c.png)
+            
+![image](https://user-images.githubusercontent.com/97058833/147972592-0c60b355-2f68-43ba-99de-66079cab45f1.png)
+
+            ¿Qué diferencias se observan entre las llamadas el punto 1 y 3?
+Después de realizar el request POST, mi nombre y correo aparecen en la base de datos junto con una ID generada automáticamente. 
