@@ -100,7 +100,10 @@ EJERCICIO 3
 Después de realizar el request POST, mi nombre y correo aparecen en la base de datos junto con una ID generada automáticamente. 
 
 EJERCICIO 4
-            https://trailblazer.me/id/vcuenca
+https://trailblazer.me/id/vcuenca
+
+![image](https://user-images.githubusercontent.com/97058833/147973451-beca9a4c-5938-4437-87e8-1e7919841437.png)
+
 
 EJERCICIO 5
 Explicar que son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan el resto (algunos no se relacionan entre sí) cada uno de los siguientes objetos de Salesforce:
