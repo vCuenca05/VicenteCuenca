@@ -136,6 +136,33 @@ DIAGRAMA:
 EJERCICIO 6
 ![image](https://user-images.githubusercontent.com/97058833/147973015-1b959acc-c5a2-4231-a354-9a5b7c92ac79.png)
 
+Public Class.
+            
+            public class IdContactos {
+    public static HttpResponse getContactos(){
+        Http http = new Http();
+        HttpRequest request = new HttpRequest();
+        request.setEndpoint('https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/-MsVSy5T-LiWV1E8Ox-a.json');
+        request.setMethod('GET');
+        
+        HttpResponse response = http.send(request);
+        System.debug(response.getStatusCode());
+        
+        if (response.getStatusCode() == 200){
+            Map<String,Object> results = (Map<String,Object>) JSON.deserializeUntyped(response.getBody());
+            System.debug(results);
+            List<Object> contactos = (List<Object>) results.get('contactos');
+            System.debug('List:'+ contactos);
+            
+            for (Object contacto:contactos){
+                System.debug(contacto);
+            }
+        }
+        
+        return response;
+    }
+} 
+
 EJERCICIO 7
 Soluciones de Salesforce
 A.	¿Qué es Salesforce?
